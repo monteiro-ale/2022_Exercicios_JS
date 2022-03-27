@@ -1,23 +1,3 @@
-// function escopo (){
-//     const form = document.querySelector('#formulario');
-//     const resultado = document.querySelector('.resultado');
-
-//     function recebeEventoForm(evento) {
-//         evento.preventDefault();
-
-//         const altura = form.querySelector('.altura');
-//         const peso = form.querySelector('.peso');
-//         let imc = Number(peso) / (Number(altura) ** 2);
-        
-//         if (typeof altura === 'string'){
-//             console.log('Altura inválida');
-//             resultado.innerHTML += '<p>Alguma coisa</p>'
-//         }
-//     }
-//     form.addEventListener('submit', recebeEventoForm);
-
-// }
-// escopo();
 
 //Capturar evento do formulario
 const form = document.querySelector('#formulario');
